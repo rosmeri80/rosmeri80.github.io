@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:wght@800 & display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #a07979;
+    font-family: 'Poppins', sans-serif;
+    color:white;
+}
+.portafolio-introduccion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 50%;
+    margin: 0 auto;    
+} 
+.avatar
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+
+#saludo
+{
+    position: absolute;
+    top: 229px;
+    left: 200px;
+    font-size: 75px; 
+}
+.portafolio-about
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.portafolio-name
+{
+    font-size: 25px;
+}
+
+.portafolio-descripcion
+{
+    text-align: center;
+    width: 600px;
+}
+
+.linkedin-logo
+{
+    height: 80px;
+    width: 80px;
+    transition: all 0.5s;
+    background: #03a9f49e;
+    border-radius: 10px;
+    
+}
+
+.linkedin-logo:hover
+{
+    height: 80px;
+    width: 80px;
+    transition: all 0.5s;
+    background: #03a9f49e;
+    border-radius: 10px;
+}
+a
+{
+      width: 80px;
+      height: 80px;
+      margin: 15px;
+}
+.sec {
+    width: 80%;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.servicios
+{
+    margin: 15px;
+    width: 90%;
+    display: flex;
+}
+
+.cont_ser {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 70%;
+    left: auto;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.cont_ser img {
+    width: 80px;
+    margin: auto;
+    display: flex;
+    border-radius: 40px;
+}
+
+.footer {
+    background-color: aliceblue;
+    padding: 30px;
+}
+.cont {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.img {
+    max-width: 40px;
+}
+.servicio_des {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.cont_ser img {
+    border-radius: 40px;
+}
+.logoInt{
+    height: 80px;
+    width: 80px;
+    transition: all 0.5s;
+    background: #03a9f49e;
+    border-radius: 10px;
+}
